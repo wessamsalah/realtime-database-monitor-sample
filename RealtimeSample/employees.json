@@ -1,0 +1,19 @@
+[
+  {
+    "campaignName": "A",
+    "date": "A",
+    "clicks": 60,
+    "conversions": 2,
+    "impressions": 2,
+    "affiliateName": "dasd"
+  },
+  {
+    "campaignName": "B",
+    "date": "A",
+    "clicks": 60,
+    "conversions": 2,
+    "impressions": 2,
+    "affiliateName": "dasd"
+
+  }
+]

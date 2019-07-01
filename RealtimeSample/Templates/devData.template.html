@@ -1,0 +1,28 @@
+<div class="container">
+    <table class="table table-bordered" >
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Date</th>
+                <th>Clicks</th>
+                <th>Conversions</th>
+                <th>Impressions</th>
+                <th>AffiliateName</th>
+                <th>Delete</th>
+                <th>Update</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="row in vm.Dev">
+                <td>{{row.CampaignName}}</td>
+                <td>{{row.Date}}</td>
+                <td>{{row.Clicks}}</td>
+                <td>{{row.Conversions}}</td>
+                <td>{{row.Impressions}}</td>
+                <td>{{row.AffiliateName}}</td>
+                <td><input type="button" class="btn btn-default" value="Delete" ng-click="vm.delete(row.ID)"> </td>
+                <td><a ng-href="Home/Update/{{row.ID}}" class="btn btn-default">Update</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
